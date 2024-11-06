@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "llm-mining"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+instaloader = "^4.13.1"
+pymongo = "^4.9.1"
+pydantic = "^2.9.2"
+langchain = "^0.3.1"
+pandas = "^2.2.3"
+pydantic-settings = "^2.5.2"
+openpyxl = "^3.1.5"
+langchain-groq = "^0.2.0"
+bs4 = "^0.0.2"
+selenium = "^4.25.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
